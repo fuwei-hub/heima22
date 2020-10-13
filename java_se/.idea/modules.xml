@@ -4,16 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IO01/IO01.iml" filepath="$PROJECT_DIR$/IO01/IO01.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO02/IO02.iml" filepath="$PROJECT_DIR$/IO02/IO02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day10/day10.iml" filepath="$PROJECT_DIR$/day10/day10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day11/day11.iml" filepath="$PROJECT_DIR$/day11/day11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day3/day3.iml" filepath="$PROJECT_DIR$/day3/day3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day4/day4.iml" filepath="$PROJECT_DIR$/day4/day4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day5/day5.iml" filepath="$PROJECT_DIR$/day5/day5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day6/day6.iml" filepath="$PROJECT_DIR$/day6/day6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day7/day7.iml" filepath="$PROJECT_DIR$/day7/day7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day8/day8.iml" filepath="$PROJECT_DIR$/day8/day8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day9/day9.iml" filepath="$PROJECT_DIR$/day9/day9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kaoshi/kaoshi.iml" filepath="$PROJECT_DIR$/kaoshi/kaoshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/线程/线程.iml" filepath="$PROJECT_DIR$/线程/线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/线程/线程1.iml" filepath="$PROJECT_DIR$/线程/线程1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/线程池/线程池.iml" filepath="$PROJECT_DIR$/线程池/线程池.iml" />
     </modules>
   </component>
 </project>
