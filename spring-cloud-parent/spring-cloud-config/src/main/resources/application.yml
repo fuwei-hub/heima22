@@ -1,0 +1,14 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: config-server
+  # spring cloud config
+  cloud:
+    config:
+      server:
+        # git 的 远程仓库地址
+        git:
+          uri: https://github.com/fuwei-hub/itheima-config.git
+      label: main # 分支配置

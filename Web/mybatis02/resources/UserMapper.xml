@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.UserDao">
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+
+    <select id="findById" parameterType="int" resultType="user">
+        select * from user where uid=#{uid}
+    </select>
+
+    <update id="update" parameterType="user">
+        update user set name=#{name} where uid=#{uid}
+    </update>
+
+    <select id="findByCondition" parameterType="user" resultType="user">
+        select * from user
+        <where>
+            <if test="uid!=null and uid!=''">
+                or uid=#{uid}
+            </if>
+            <if test="name!=null and name!=''">
+                or name=#{name}
+            </if>
+            <if test="password!=null and password!=''">
+                or password=#{password}
+            </if>
+            <if test="email!=null and email!=''">
+                or email=#{email}
+            </if>
+            <if test="birthday!=null and birthday!=''">
+                or birthday=#{birthday}
+            </if>
+        </where>
+    </select>
+</mapper>

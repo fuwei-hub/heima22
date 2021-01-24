@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="element-ui/lib/theme-chalk/index.css">
+    <script src="js/vue.js"></script>
+    <script src="js/axios-0.18.0.js"></script>
+    <script src="js/qs.js"></script>
+    <script src="element-ui/lib/index.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <el-select v-model="value" placeholder="请选择相应省份" @change="handleChange">
+        <el-option
+                v-for="item in provinces"
+                :key="item.provinceId"
+                :label="item.name"
+                :value="item.provinceId">
+            <span style="float: left">{{ item.name }}</span>
+            <span style="float: right; color: #8492a6; font-size: 13px">{{ item.provinceId }}</span>
+        </el-option>
+    </el-select>
+    <el-select v-model="values" placeholder="请选择相应城市">
+        <el-option
+                v-for="item in cities"
+                :key="item.cityId"
+                :label="item.name"
+                :value="item.cityId">
+            <span style="float: left">{{ item.name }}</span>
+            <span style="float: right; color: #8492a6; font-size: 13px">{{ item.cityId }}</span>
+        </el-option>
+    </el-select>
+</div>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            provinces: [],
+            value: '',
+            cities: [],
+            values: ''
+        },
+        methods: {
+            handleChange: function (value) {
+                axios.post("/CityController/findByPid", Qs.stringify({
+                    pid: value
+                })).then(resp => {
+                    this.cities = resp.data,
+                        this.values = resp.data[0],
+                    console.log(resp.data)
+                }).catch(error => {
+                    console.log(error)
+                }).finally(() => {
+                });
+            }
+        },
+        created: function () {
+            axios.post("/ProvinceController/findAll").then(resp => {
+                this.provinces = resp.data
+                console.log(resp)
+            }).catch(error => {
+                console.log(error)
+            }).finally(() => {
+            });
+        },
+    })
+</script>
+</body>
+</html>

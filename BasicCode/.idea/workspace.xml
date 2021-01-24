@@ -1,198 +1,550 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="265847d9-ad6e-4de3-b421-23cdd0ddbab0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3a7cd78b-1b1a-4212-969c-4cea7e28b066" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/CSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/autumn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/btn_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/itheima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/j1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/j2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/j3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/other2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/repost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/snow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/star.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/weibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/img/wx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/合并单元格练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/新闻头条CSS改进.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/CSS/选择器练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/HTML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/src/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/01-入门案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/案例一/新闻.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/案例三/入门案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/案例三/表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/案例二/头条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/案例二/浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/HTML/web/表单标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/ShoppingTrolley.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/img/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/img/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/img/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/img/y1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/img/y2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/img/y3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/实战.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/实战/登陆页面优化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/java_se.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/libraries/dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/libraries/lib__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/libraries/lib___2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO流第一天/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO流第一天/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO流第一天/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO第二天/使用properties读取配置文件.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO第二天/字符缓冲流特有方法拷贝文本文件.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO第二天/转换流文件编码格式的转换.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/scoket/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/scoket/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/反射/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/反射/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/反射/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/反射/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/反射/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/线程/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/线程/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/线程/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/IO第一天/IO第一天.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/IO第二天/IO第二天.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/使用ResourceBoundle读取配置文件.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day10/day10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day11/day11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day3/day3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day4/day4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day5/day5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day6/day6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day7/day7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day8/day8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/day9/day9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/junit-log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/lib/lombok-1.18.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/lib/slf4j-log4j12-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/domain/lombo测试类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/test/chifan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/单元测试入门案例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/junit-log/src/日志的测试类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/kaoshi/kaoshi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/kaoshi/kaoshiti答案/kaoshiti.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/lib/lombok-1.18.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/lib/slf4j-log4j12-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/myserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/resources/admin/denglu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/myserver/src/cn/itcase/core/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/socket/socket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/socket/src/Test01/客户端.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/socket/src/Test01/服务器端.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/socket/src/Test02/客户端.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/socket/src/Test02/服务器端.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/resources/myxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/annos/MyAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test01/Test01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test01/解析文件.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test02/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test02/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test02/测试类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test03/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test03/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/test/test03/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/枚举演示.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/自定义注解的使用.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/src/解析xml文件.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/xml-枚举-注解/xml-枚举-注解.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/resources/Test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/cn/itheima/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/cn/itheima/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/作业/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/作业/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/作业/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/作业/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/作业/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/将class文件加载到内存中的三种方式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/案例/通过反射向集合中添加数据.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/案例/通过反射执行配置文件中类的方法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/通过反射操作方法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/通过反射获取field并设置和获取属性值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/src/反射/通过反射获取构造方法描述器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/反射/反射.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-se/线程池/线程池.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/java_se.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/IO01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/2020-10-17日练习.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/demo/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/demo/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/demo/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/demo/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/demo/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/demo/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/demo/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/demo/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/删除文件夹下的文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/删除文件夹下的文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/字节流复制文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/字节流复制文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/字节输入流练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/字节输入流练习.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/字节输出流入门.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/字节输出流入门.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/字节输出流入门TryCatch训练.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/字节输出流入门TryCatch训练.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/汇总文件夹下面的文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/汇总文件夹下面的文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO01/src/test/获取文件夹下的内容.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/src/test/获取文件夹下的内容.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/IO02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第一天/IO01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/a.txt.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/a.txt.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/b.txt.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/b.txt.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/liang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/liang.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/resources/Person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/resources/Person.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/aa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/aa.txt.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/aa.txt.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/bb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/使用ResourceBoundle读取配置文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/2020-10-17日练习/src/IO第二天/使用ResourceBoundle读取配置文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/使用properties读取配置文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/使用properties读取配置文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/字符缓冲流特有方法拷贝文本文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/字符缓冲流特有方法拷贝文本文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/demo/转换流文件编码格式的转换.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/demo/转换流文件编码格式的转换.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/ProPerties练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/ProPerties练习.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/使用缓冲流的特有方法拷贝文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/使用缓冲流的特有方法拷贝文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/字符流创建书写文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/字符流创建书写文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/字符缓冲输入流读取数据.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/字符缓冲输入流读取数据.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/将字符串中的数字排序后放入.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/将字符串中的数字排序后放入.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/序列化操作.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/序列化操作.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/src/test/序列化集合练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/src/test/序列化集合练习.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/IO02/集合.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/集合.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/day10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/hashmaptest/TestHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/hashsettest/TestHashSet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/hashsettest/TestHashSet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/maptest/TestMap1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/maptest/TestMap2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/treemaptest/TestTreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/treesettest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day10/src/src/com/itheima/treesettest/TestSetTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/day11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/src/src/com/itheima/StreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/src/src/com/itheima/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/src/src/com/itheima/Test01_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/src/src/com/itheima/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/src/src/com/itheima/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day11/src/src/com/itheima/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/day3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test/Fu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test/Ye.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test/Zi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test2/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test2/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test2/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test2/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test2/Testpermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test2/Zi_test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day3/src/com/itheima/test3/Fu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day4/day4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day4/src/com/itheima/Animal/TestAnimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day4/src/com/itheima/inter/Inter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day4/src/com/itheima/inter/InterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day4/src/com/itheima/inter/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day4/src/com/itheima/zhuanxing/Polymorpic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/day5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/lambda/Tast06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/lambda/Test05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/lambda/Test07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/lambda/Test08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/test/MenNanSwim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/test/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/test/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/test/Test02_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/test/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day5/src/com/itheima/test/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/day6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyArraysDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyBigDecimalDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyBinarySearchDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyBinarySearchDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyBubbleSortDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyIntegerDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyMathDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyObjectsDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyQuiteSortDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/MyQuiteSortDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/StringExchangToArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day6/src/com/itheima/SystemDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/day7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/AgeOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/DateDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/ExceptionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/LocalDateTimeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/MiaoSha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/SimpleDateFormatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day7/src/com/itheima/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/day8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/src/com/itheima/collection/Demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/src/com/itheima/collection/Demo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/src/com/itheima/collection/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/src/com/itheima/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/src/com/itheima/linkedList/Demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day8/src/com/itheima/list/Demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/day9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/domain/Generic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/fanxing/AnLi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/fanxing/GenericDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/fanxing/GenericDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/fanxing/GenericDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/fanxing/GenericDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/set/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/treeset/Comparable1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/treeset/Comparable2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/day9/src/com/itheima/treeset/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/kaoshi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/src/Test/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/src/Test/ManagerChoose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/src/Test/managers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/src/Test/subways.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/src/domain/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/kaoshi/src/domain/Subway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/demo/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/demo/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/demo/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/demo/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/删除文件夹下的文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/字节流复制文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/字节输入流练习.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/字节输出流入门.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/字节输出流入门TryCatch训练.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/汇总文件夹下面的文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO01/test/获取文件夹下的内容.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/aa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/aa.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/bb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/使用ResourceBoundle读取配置文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/使用properties读取配置文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/字符缓冲流特有方法拷贝文本文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/demo/转换流文件编码格式的转换.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/ProPerties练习.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/使用缓冲流的特有方法拷贝文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/字符流创建书写文件.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/字符缓冲输入流读取数据.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/将字符串中的数字排序后放入$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/将字符串中的数字排序后放入.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/序列化操作.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/IO02/test/序列化集合练习.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/META-INF/kaoshi.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/Test/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/Test/ManagerChoose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/Test/managers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/Test/subways.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/domain/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/domain/Subway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/kaoshi/考试提交.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/IP方法演示.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/META-INF/socket.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/tcp/tcp转大写/客户端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/tcp/tcp转大写/服务器端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/tcp/客户端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/tcp/服务器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/tcp/测试.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/test/test01/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/test/test01/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/test/test02/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/test/test02/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/test/test03/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/test/test03/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/udp/tese01/发送端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/udp/tese01/接收端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/udp/test02/发送端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/socket/udp/test02/接收端.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/META-INF/test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习一/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习一/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习一/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习一/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习二/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习二/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习二/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/io流练习二/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/read.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/买票案例/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/买票案例/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/买票案例/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/买票案例/Tongbu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/实现方式/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/实现方式/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/实现方式/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/实现方式/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/实现方式/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/实现方式/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/死锁/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/死锁/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/死锁/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/死锁/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/生产者和消费者/Desk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/生产者和消费者/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/生产者和消费者/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/test/多线程/生产者和消费者/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/卖票/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/卖票/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/卖票/TestDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/卖票/TestDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/实现多线程/Callable实现多线程.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/实现多线程/Runnable实现多线程.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/实现多线程/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/实现多线程/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/实现多线程/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/实现多线程/Thread实现多线程.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/死锁/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/死锁/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/死锁/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/死锁/测试.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/生产者消费者/Desk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/生产者消费者/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/生产者消费者/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/test/生产者消费者/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/买票案例/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/买票案例/TicketRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/买票案例/lock/TickRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/买票案例/lock/测试类.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/多线程实现/callable/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/多线程实现/callable/测试类.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/多线程实现/runnable/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/多线程实现/runnable/测试类.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/多线程实现/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/多线程实现/thread/测试类.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/死锁/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/死锁/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/死锁/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/死锁/测试类.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/生产者消费者/Desk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/生产者消费者/入门$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/生产者消费者/入门$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/生产者消费者/入门.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/Test02$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/Test02$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/静态方法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程/锁的对象测试/非静态方法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/IP对象演示.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/META-INF/线程池.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/Demo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/Demo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/Demo05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/demo06/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/demo/demo06/StudentEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/CountDownLatch演示.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/创建可以定时的线程池$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/创建可以定时的线程池$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/创建可以定时的线程池.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/可缓存和固定长度的线程池$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/可缓存和固定长度的线程池.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/线程池/test/线程池的底层实现原理.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/out/production/自习/Demo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/socket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/socket.iml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/junit-log/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/IP方法演示.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/tcp/tcp转大写/客户端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/tcp/tcp转大写/服务器端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/tcp/客户端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/tcp/服务器.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/tcp/测试.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/test/test01/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/test/test01/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/test/test02/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/test/test02/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/test/test03/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/test/test03/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/udp/tese01/发送端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/udp/tese01/接收端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/udp/test02/发送端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/socket/src/udp/test02/接收端.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/resources/read.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习一/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习一/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习一/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习一/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习二/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习二/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习二/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/io流练习二/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/买票案例/Lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/买票案例/Tongbu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/实现方式/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/实现方式/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/实现方式/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/死锁/Lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/src/多线程/生产者和消费者/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/卖票/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/卖票/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/卖票/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/卖票/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/实现多线程/Callable实现多线程.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/实现多线程/Callable实现多线程.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/实现多线程/Runnable实现多线程.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/实现多线程/Runnable实现多线程.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/实现多线程/Thread实现多线程.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/实现多线程/Thread实现多线程.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/死锁/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/死锁/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/死锁/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/死锁/ThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/死锁/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/死锁/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/死锁/测试.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/死锁/测试.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/test/生产者消费者/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/test/生产者消费者/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/买票案例/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/买票案例/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/买票案例/TicketRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/买票案例/TicketRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/买票案例/lock/TickRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/买票案例/lock/TickRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/买票案例/lock/测试类.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/买票案例/lock/测试类.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/多线程实现/callable/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/多线程实现/callable/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/多线程实现/callable/测试类.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/多线程实现/callable/测试类.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/多线程实现/runnable/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/多线程实现/runnable/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/多线程实现/runnable/测试类.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/多线程实现/runnable/测试类.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/多线程实现/thread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/多线程实现/thread/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/多线程实现/thread/测试类.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/多线程实现/thread/测试类.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/死锁/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/死锁/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/死锁/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/死锁/ThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/死锁/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/死锁/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/死锁/测试类.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/死锁/测试类.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/生产者消费者/入门.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/生产者消费者/入门.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/锁的对象测试/静态方法.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/锁的对象测试/静态方法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/src/锁的对象测试/非静态方法.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/src/锁的对象测试/非静态方法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程/线程.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程/线程.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/demo06/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/demo06/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/demo/demo06/StudentEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/demo/demo06/StudentEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/test/CountDownLatch演示.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/test/CountDownLatch演示.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/test/创建可以定时的线程池.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/test/创建可以定时的线程池.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/test/可缓存和固定长度的线程池.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/test/可缓存和固定长度的线程池.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/src/test/线程池的底层实现原理.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/线程池/src/test/线程池的底层实现原理.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_se/线程池/线程池.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-se/IO第二天/IO02.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="209" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+  <component name="ProjectId" id="1iztcwximxqvagmH3XXfn5uJOXq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="BasicCode" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1gw8hn8Q1oLpsE4CIGNoZusCNUe" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="jdk.selected.JAVA_MODULE" value="12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.itheima.anli" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AnLi01">
-    <configuration name="AnLI03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.anli.AnLI03" />
-      <module name="day09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.anli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnLI04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.anli.AnLI04" />
-      <module name="day09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.anli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnLi01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.anli.AnLi01" />
-      <module name="day09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.anli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnLi02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.anli.AnLi02" />
-      <module name="day09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.anli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnLi05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.anli.AnLi05" />
-      <module name="day09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.anli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.HelloWorld" />
-      <module name="day04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.anli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.AnLi01" />
-        <item itemvalue="Application.AnLi02" />
-        <item itemvalue="Application.AnLI04" />
-        <item itemvalue="Application.AnLi05" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="265847d9-ad6e-4de3-b421-23cdd0ddbab0" name="Default Changelist" comment="" />
-      <created>1599014415514</created>
+      <changelist id="3a7cd78b-1b1a-4212-969c-4cea7e28b066" name="Default Changelist" comment="" />
+      <created>1602922330112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599014415514</updated>
-      <workItem from="1599014416695" duration="2521000" />
-      <workItem from="1599024103161" duration="270000" />
-      <workItem from="1599024393955" duration="20000" />
-      <workItem from="1599024445801" duration="1000" />
-      <workItem from="1599024457740" duration="14000" />
-      <workItem from="1599024672086" duration="16796000" />
-      <workItem from="1599094267740" duration="20314000" />
-      <workItem from="1599178582651" duration="20141000" />
-      <workItem from="1599264594097" duration="25322000" />
-      <workItem from="1599364716307" duration="11219000" />
-      <workItem from="1599380943050" duration="4991000" />
-      <workItem from="1599437560635" duration="15648000" />
-      <workItem from="1599478135818" duration="2185000" />
-      <workItem from="1599480534061" duration="3224000" />
-      <workItem from="1599524274532" duration="21867000" />
-      <workItem from="1599568559159" duration="2769000" />
-      <workItem from="1599616018979" duration="12507000" />
-      <workItem from="1599639577743" duration="2322000" />
-      <workItem from="1599696426329" duration="20375000" />
-      <workItem from="1600253050722" duration="97000" />
-      <workItem from="1602124021233" duration="11000" />
+      <updated>1602922330112</updated>
+      <workItem from="1602922331299" duration="5000" />
+      <workItem from="1602922507983" duration="4000" />
+      <workItem from="1603457611700" duration="16000" />
+      <workItem from="1603458978161" duration="21000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BasicCode$AnLI03.ic" NAME="AnLI03 Coverage Results" MODIFIED="1599733329026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.itheima.anli.*</FILTER>
-    </SUITE>
   </component>
 </project>

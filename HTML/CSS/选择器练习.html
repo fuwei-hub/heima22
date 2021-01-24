@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*属性选择器是没有优先级的,顺序为从上到下执行的顺序*/
+        [type="password"]{
+            color: red;
+        }
+        [type]{
+            color: black;
+        }
+        .xx{
+            color: red;
+        }
+        [class]{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<input type="text">账号
+<input type="password">密码
+<div class="xx">等待</div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .float {
+            float: left;
+        }
+
+        .clearfix:after {
+            content: "";
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+        body{
+            background: url("../CSS/img/bg.png");
+        }
+        .out{
+            width: 600px;
+            height: 400px;
+            margin: auto;
+            margin-top: 80px;
+            background-color: white;
+        }
+        .inner1{
+            height:75%;
+            border-radius: 20px;
+        }
+        .inner1-1{
+            font-size: 30px;
+            text-align: center;
+            height:80px;
+            line-height: 60px;
+            color: darkorange;
+        }
+        input{
+            margin: auto;
+            margin-top: 25px;
+            margin-left: 24px;
+            border-radius: 5px;
+            line-height: 2;
+            width: 279px;
+        }
+        .inner1-2{
+            margin-left: 50px;
+        }
+        .inner1-3{
+            margin-left: 50px;
+        }
+        button{
+            width: 440px;
+            margin-left: 86px;
+            font-size: 20px;
+            height: 36px;
+            border-radius: 7px;
+            background-color: red;
+        }
+        .inner2{
+            margin-left: 0px;
+            text-align: center;
+        }
+        a:hover{
+            color: gainsboro;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="out">
+    <div class="inner1">
+        <div class="inner1-1">
+            账 号 登 录
+            <hr>
+        </div>
+        <form action="#" method="get" >
+        <div class="inner1-2 clearfix">
+            <div class="zhanghao float" style="font-size: 25px;width:150px;height:87px;line-height: 80px;text-align: center";>账 号</div>
+            <div class="zhanghao float" style="width: 400px;height: 80px;border-radius: 15px;outline: none"><input type="text" name="username" required value="" ></div>
+        </div>
+        <div class="inner1-3 clearfix">
+            <div class="zhanghao float" style="font-size: 25px;width:150px;height:87px;line-height: 80px;text-align: center";>密 码</div>
+            <div class="zhanghao float" style="width: 400px;height: 80px;border-radius: 15px;outline: none"><input type="text" name="username" required value="" ></div>
+        </div>
+        </form>
+        <a href="http://localhost:63342/HTML/%E5%AE%9E%E6%88%98/ShoppingTrolley.html?_ijt=unkr3ce9pi425e7df9ittvsm0i">
+        <button>确 定</button></a>
+    </div>
+    <div class="inner2">
+            <span>登录/注册表示您同意
+            <a href="#" target="_self">用户协议</a> 和
+            <a href="#" target="_self"> 隐私条款 </a>
+            <a href="#" target="_self"> 忘记密码? </a>
+            </span>
+    </div>
+</div>
+</body>
+</html>

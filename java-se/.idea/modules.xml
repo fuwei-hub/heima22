@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2020-10-17日练习/2020-10-17日练习.iml" filepath="$PROJECT_DIR$/2020-10-17日练习/2020-10-17日练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO第一天/IO第一天.iml" filepath="$PROJECT_DIR$/IO第一天/IO第一天.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO第二天/IO第二天.iml" filepath="$PROJECT_DIR$/IO第二天/IO第二天.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit-log/junit-log.iml" filepath="$PROJECT_DIR$/junit-log/junit-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyServer/MyServer.iml" filepath="$PROJECT_DIR$/MyServer/MyServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-枚举-注解/xml-枚举-注解.iml" filepath="$PROJECT_DIR$/xml-枚举-注解/xml-枚举-注解.iml" />
+      <module fileurl="file://$PROJECT_DIR$/反射/反射.iml" filepath="$PROJECT_DIR$/反射/反射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/线程/线程.iml" filepath="$PROJECT_DIR$/线程/线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/线程池/线程池.iml" filepath="$PROJECT_DIR$/线程池/线程池.iml" />
+      <module fileurl="file://$PROJECT_DIR$/考试/考试.iml" filepath="$PROJECT_DIR$/考试/考试.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        .float {
+            float: left;
+        }
+
+        .clearfix:after {
+            content: "";
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <ul class="clearfix" style="list-style: none">.
+        <li class="float">真</li>
+        <li class="float">不</li>
+        <li class="float">错</li>
+    </ul>
+</div>
+</body>
+</html>

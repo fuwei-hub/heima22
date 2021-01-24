@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生管理系统</title>
+    <link rel="stylesheet" href="element-ui/lib/theme-chalk/index.css">
+    <script src="js/vue.js"></script>
+    <script src="element-ui/lib/index.js"></script>
+    <script src="js/axios-0.18.0.js"></script>
+    <script src="js/qs.js"></script>
+
+</head>
+<body>
+<div id="div">
+    <b style="color: red; font-size: 20px;">学生列表</b>
+    <div style="float: right;">
+        <el-button type="primary" @click="dialog_addStudent=true">添加学生</el-button>
+    </div>
+    <el-table :data="tableData"
+              v-loading="loading"
+              style="width: 100%">
+        <el-table-column prop="number" label="学号" width="120">
+        </el-table-column>
+        <el-table-column prop="name" label="姓名" width="120">
+        </el-table-column>
+        <el-table-column prop="birthday" label="生日" width="140">
+        </el-table-column>
+        <el-table-column prop="address" label="地址">
+        </el-table-column>
+        <el-table-column label="操作" width="180">
+            <template slot-scope="props">
+                <el-button type="warning" @click="showEditDialog(props.row)">编辑</el-button>
+                <el-button type="danger" @click="deleteStudent(props.row.number)">删除</el-button>
+            </template>
+        </el-table-column>
+    </el-table>
+    <el-pagination
+            @size-change="handleSizeChange"
+            @current-change="handleCurrentChange"
+            :current-page="pagination.currentPage"
+            :page-sizes="[3,5,8]"
+            :page-size="pagination.pageSize"
+            layout="total, sizes, prev, pager, next, jumper"
+            :total="pagination.total">
+    </el-pagination>
+
+
+    <!--添加学生弹出层-->
+    <el-dialog title="添加学生" :visible.sync="dialog_addStudent">
+        <el-form :model="formData" :rules="rules" ref="addForm" label-width="100px" class="demo-ruleForm">
+            <el-form-item label="学生学号" prop="number">
+                <el-input v-model="formData.number"></el-input>
+            </el-form-item>
+            <el-form-item label="学生姓名" prop="name">
+                <el-input v-model="formData.name"></el-input>
+            </el-form-item>
+            <el-form-item label="学生生日" prop="birthday">
+                <el-input v-model="formData.birthday" type="date"></el-input>
+            </el-form-item>
+            <el-form-item label="学生地址" prop="address">
+                <el-input v-model="formData.address"></el-input>
+            </el-form-item>
+            <el-form-item align="right">
+                <el-button type="primary" @click="addStudent">添加</el-button>
+                <el-button @click="$refs['addForm'].resetFields()">重置</el-button>
+            </el-form-item>
+        </el-form>
+    </el-dialog>
+
+
+    <!--编辑学生弹出层-->
+    <el-dialog title="编辑学生" :visible.sync="dialog_updateStudent">
+        <el-form :model="update_formData" :rules="rules" ref="editForm" label-width="100px" class="demo-ruleForm">
+            <el-form-item label="学生学号" prop="number">
+                <el-input v-model="update_formData.number"></el-input>
+            </el-form-item>
+            <el-form-item label="学生姓名" prop="name">
+                <el-input v-model="update_formData.name"></el-input>
+            </el-form-item>
+            <el-form-item label="学生生日" prop="birthday">
+                <el-input v-model="update_formData.birthday" type="date"></el-input>
+            </el-form-item>
+            <el-form-item label="学生地址" prop="address">
+                <el-input v-model="update_formData.address"></el-input>
+            </el-form-item>
+            <el-form-item align="right">
+                <el-button type="primary" @click="updateStudent">提交编辑</el-button>
+                <el-button @click="$refs['editForm'].resetFields()">重置</el-button>
+            </el-form-item>
+        </el-form>
+    </el-dialog>
+</div>
+<script>
+    new Vue({
+        el: "#div",
+        data: {
+            tableData: [],//表格数据
+            pagination: {
+                currentPage: 1, //当前页
+                pageSize: 5,    //每页显示条数
+                total: 0        //总条数
+            },
+            dialog_addStudent: false,
+            formData: {},
+            dialog_updateStudent: false,
+            update_formData: {},
+            loading: false,
+            rules: {//表单校验规则
+                number: [
+                    {required: true, message: '请输入学号', trigger: 'blur'},
+                    {min: 2, max: 10, message: '长度在 2 到 10 个字符', trigger: 'blur'}
+                ],
+                name: [
+                    {required: true, message: '请输入姓名', trigger: 'blur'},
+                    {min: 2, max: 10, message: '长度在 2 到 10 个字符', trigger: 'blur'}
+                ],
+                birthday: [
+                    {required: true, message: '请选择日期', trigger: 'change'}
+                ],
+                address: [
+                    {required: true, message: '请输入地址', trigger: 'blur'},
+                    {min: 2, max: 200, message: '长度在 2 到 200 个字符', trigger: 'blur'}
+                ],
+            }
+        },
+
+        methods: {
+            findStudent: function () {
+                this.loading=true
+                axios.post("http://localhost:8080/FindStudentByPageServlet", Qs.stringify({
+                    currentPage: this.pagination.currentPage,
+                    pageSize: this.pagination.pageSize
+                })).then(resp => {
+                    //console.log(this.pagination.currentPage)
+                    console.log(resp.data)
+                    this.tableData = resp.data.list;
+                    //设置总记录数
+                    this.pagination.total = resp.data.total;
+                }).catch(error => {
+                    console.log(error)
+                }).finally(() => {
+                    this.loading = false;
+                });
+            },
+            handleSizeChange: function (pageSize) {
+                this.pagination.pageSize = pageSize;
+                this.findStudent();
+            },
+            handleCurrentChange: function (pageNume) {
+                this.pagination.currentPage = pageNume;
+                this.findStudent();
+            },
+            addStudent: function () {
+                this.$refs["addForm"].validate((valid) => {
+                        if (valid) {
+                axios.post("http://localhost:8080/AddStudentServlet", Qs.stringify(this.formData)).then(resp => {
+                    if (resp.data) {
+                        this.$message({
+                            message: '恭喜你，添加成功',
+                            type: 'success'
+                        });
+                        //关闭弹出层
+                        this.dialog_addStudent = false;
+                        //还原表单数据
+                        this.$refs['addForm'].resetFields();
+                        //刷新当前页面
+                        this.findStudent();
+                    } else {
+                        this.$message.error('添加失败，请联系管理员');
+                    }
+                }).catch(error => {
+                    console.log(error)
+                }).finally(() => {
+                });
+                        }
+            });
+            },
+            showEditDialog: function (data) {
+                this.dialog_updateStudent = true;
+                this.update_formData = data;
+
+            },
+            updateStudent: function () {
+                axios.post("http://localhost:8080/UpdateStudentServlet", Qs.stringify(this.update_formData)).then(resp => {
+                    console.log(resp)
+                    if (resp.data) {
+                        this.$message({
+                            message: '恭喜你，修改成功',
+                            type: 'success'
+                        });
+                        this.dialog_updateStudent = false;
+                        //还原表单数据
+                        this.$refs['editForm'].resetFields();
+                        //刷新当前页面
+                        this.findStudent();
+                    } else {
+                        this.$message.error('修改失败，请联系管理员');
+                    }
+                }).catch(error => {
+                    console.log(error)
+                }).finally(() => {
+
+                });
+                this.$refs['addForm'].resetFields();
+            },
+            deleteStudent: function (number) {
+                this.$confirm('此操作将永久删除该文件, 是否继续?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning',
+                    center: true
+                }).then(() => {
+                    axios.post("http://localhost:8080/DeleteStudentServlet", Qs.stringify({
+                        number: number
+                    })).then(resp => {
+                        if (resp.data) {
+                            this.$message({
+                                type: 'success',
+                                message: '删除成功!'
+                            });
+                            this.findStudent();
+                        } else {
+                            this.$message.error('删除失败，请联系管理员');
+                        }
+                    }).catch(error => {
+                        console.log(error)
+                    }).finally(() => {
+                    });
+                }).catch(() => {
+                    this.$message({
+                        type: 'info',
+                        message: '已取消删除'
+                    });
+                });
+            }
+        },
+        created: function () {
+            this.findStudent();
+        }
+    })
+</script>
+</body>
+</html>

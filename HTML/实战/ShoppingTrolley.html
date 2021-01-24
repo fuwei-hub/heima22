@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .float {
+            float: left;
+        }
+
+        .clearfix:after {
+            content: "";
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .clearfixr{
+            zoom: 1;
+        }
+        .container{
+            width: 800px;
+            height: 1500px;
+        }
+        .container>.top{
+            text-align: center;
+            height: 50px;
+
+        }
+        .floatr{
+            width: 1500px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: gainsboro;
+
+        }
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+        }
+        a:hover{
+            color: darkorange;
+        }
+        .sec{
+            width: 846px;
+            margin-left: 327px;
+            height: 1300px;
+            /*border: 1px solid red;;*/
+        }
+        .bottom{
+            height: 50px;
+            text-align: center;
+            background-color: gainsboro;
+            width: 1500px;
+            line-height: 50px
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form action="#" method="get">
+    <div class="top clearfixr" style="width: 1500px">
+        <div class="floatr">
+        <a href="#" target="_self">🏠京东首页 </a>
+        <a href="#"target="_self"> ♙山西</a>
+        <a href="#"target="_self"style="margin-left: 300px;">我的订单 </a>
+        <a href="#"target="_self"> 我的京东 |</a>
+        <a href="#"target="_self"> 企业采购 |</a>
+        <a href="#"target="_self"> 客服服务 |</a>
+        <a href="#"target="_self"> 网址导航 |</a>
+        <a href="#"target="_self"> 手机京东 </a>
+        </div>
+    </div>
+    <div class="sec" style="position: relative">
+        <div>
+            <img src="u=2049880908,2641936757&fm=26&gp=0%5B1%5D.jpg" width="100px" height="80px"  alt="" title="京东~"style="position: absolute;top: 22px;left: 48px;">
+            <input placeholder="请输入您想要搜索的物品" type="text" name="sousuo" value="" style="margin-left: 498px;width: 211px;border-radius: 5px;outline: none;margin-top: 52px;">
+            <button>搜索</button>
+        </div>
+        <div style="margin-top: 60px;margin-left: 48px;font-size: 20px;"><span style="color: red;">全部商品 0</span>
+        <span style="margin-left: 452px;">配送至:</span>
+            <select name="dizhi" id="dizhi" style="width: 150px;height: 30px;">
+                <option value="">请选择配送的城市</option>
+                <option value="">太原</option>
+                <option value="">阳泉</option>
+                <option value="">榆次</option>
+                <option value="">晋祠</option>
+            </select>
+        </div>
+        <div>
+            <table style="background-color: gainsboro;height: 40px;margin-top: 8px;width: 846px;" >
+                <tr style="text-align: center;font-size: 18px;">
+                    <td>全选</td>
+                    <td colspan="4">商品</td>
+                    <td>单价</td>
+                    <td>数量</td>
+                    <td>小计</td>
+                    <td>操作</td>
+                </tr>
+            </table>
+        </div>
+        <div style="position: relative;top: 100px;left: 275px;"><img src="u=2702112047,218394598&fm=26&gp=0%5B1%5D.jpg"  style="position: absolute" alt="" width="300px" height="240px">
+        </div>
+        <div style=" margin-top:364px;text-align: center;font-size: 24px;color: red;">还没有商品哦,请添加后查询!</div>
+        <div style="text-align: center;color: darkgray;font-size: 20px;margin-top: 62px;">-- 🛍购物车帮你选 --</div>
+        <hr>
+        <div>
+            <img  src="./img/22.jpg" alt=""  width="200px" height="200px" style="margin-left: 50px;margin-right: 40px; margin-top: 50px" >
+            <img  src="./img/33.jpg" alt="" width="200px" height="200px"style="margin-right: 40px; margin-top: 50px;margin-left: 21px;">
+            <img  src="./img/44.jpg" alt="" width="200px" height="200px"style="margin-left: 34px; margin-top: 50px">
+        </div>
+        <div>
+            <img  src="./img/y1.jpg" alt=""  width="200px" height="200px" style="margin-left: 50px;margin-right: 40px; margin-top: 50px" >
+            <img  src="./img/y2.jpg" alt="" width="200px" height="200px"style="margin-right: 40px; margin-top: 50px;margin-left: 21px;">
+            <img  src="./img/y2.jpg" alt="" width="200px" height="200px"style="margin-left: 34px; margin-top: 50px">
+        </div>
+    </div>
+        <div class="bottom">
+            -----<a href="#" target="_self">关于我们 </a>
+            <a href="#" target="_self">联系我们 |</a>
+            <a href="#" target="_self">联系客服 |</a>
+            <a href="#" target="_self">合作招商 |</a>
+            <a href="#" target="_self">营销中心 |</a>
+            <a href="#" target="_self">友情链接 |</a>
+            <a href="#" target="_self">隐私政策 |</a>
+            <a href="#" target="_self">京东公益</a>------
+        </div>
+    </form>
+</div>
+</body>
+</html>

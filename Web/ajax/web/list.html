@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*设置浮动*/
+        .float {
+            float: left;
+        }
+
+        /*清除浮动，兼容现代浏览器*/
+        .clearfix:after {
+            content: "";
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        /*清除浮动，兼容IE浏览器*/
+        .clearfix {
+            zoom: 1;
+        }
+
+
+    </style>
+    <style>
+        .search {
+            width: 800px;
+            height: 42px;
+            background-color: hotpink;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .search > div:first-child {
+            width: 675px;
+            height: 100%;
+            background-color: #DA2502;
+            position: relative
+        }
+
+        .search > div > i {
+            position: absolute;
+            right: 7px;
+            top: 10px;
+            color: gray;
+            font-size: 24px
+        }
+
+        .search > div > input {
+            height: 100%;
+            width: 100%;
+            padding-left: 10px;
+            font-size: 16px;
+            font-family: arial;
+            border: 1px solid #3385FF
+        }
+
+        .search > .btn_search {
+            letter-spacing: 1px;
+            width: 125px;
+            height: 100%;
+            background-color: #3385FF;
+            font-size: 14px;
+            color: white;
+            line-height: 42px;
+            text-align: center
+        }
+
+        .search > .btn_search:hover {
+            cursor: pointer;
+            opacity: .9;
+        }
+
+        ul {
+            list-style: none;
+            position: relative;
+            width: 675px;
+        }
+
+        li {
+            height: 40px !important;
+            border-left: 1px solid #CCCCCC;
+            border-right: 1px solid #CCCCCC;
+            border-bottom: 1px solid #CCCCCC;
+            padding-left: 10px;
+            line-height: 40px;
+        }
+
+        li:hover {
+            background-color: #F0F0F0;
+            cursor: pointer;
+        }
+    </style>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<!--子绝父相
+    子元素(当前元素)定位设置成绝对定位
+    父元素设置成相对定位
+
+    给子元素添加left,top,bottom,right设置子元素的位置-->
+<div style="width: 400px;margin:0 auto;margin-top:88px">
+    <img src="./imgs/logo.png" alt="" style="width: 100%">
+</div>
+
+<div style="position: relative;width: 800px;margin: 0 auto">
+    <div class="clearfix search">
+        <div class="float">
+            <i class="fa fa-camera"></i>
+            <input type="text" placeholder="黑马一下，你就知道" value="橘">
+        </div>
+        <div class="float btn_search">黑马一下</div>
+    </div>
+    <ul>
+
+    </ul>
+</div>
+<script>
+    //入口函数
+    $(function () {
+        //给按钮添加单击事件
+        $(".btn_search").on('click', function () {
+            //异步的实现方式post       参数数据类型不需要给出，在baseServlet中已经规定了数据类型了
+            $.post(
+                //1.访问服务器的地址
+                "/CountyServlet/findByName",
+                //2.传给服务器的参数
+                {wd: $("input").val()},
+                //3.回调函数  data是服务器传来的参数
+                function (data) {
+                    //若不清空，将会对查询数据进行叠加
+                    $("ul").empty();
+                    $(data).each(function (index, element) {
+                        let li = $("<li>" + element.name + "</li>");
+                        $("ul").append(li);
+                    });
+                }
+            );
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<input type="button" value="点击获取数据">
+<script>
+    $("input").on('click', function () {
+        //参数1.要访问的资源路径
+        //参数2.传给服务器的参数  可以是拼接的字符串，也可以是一个对象  如不需要传参可以是空串或者null或者不写
+        //参数3.服务器响应成功后执行的代码，data表示服务器传来的参数
+        //参数4.服务器响应成功后返回参数的类型（也就是data的类型）
+        $.get("/DataServlet/getData",
+            {
+                username: "张三",
+                password: "123456",
+                age: 23
+            },
+            function (data) {
+                console.log(data)
+            },
+            'text');
+    })
+</script>
+</body>
+</html>

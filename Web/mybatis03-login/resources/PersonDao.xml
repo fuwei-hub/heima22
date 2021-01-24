@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.LoginDao">
+    <select id="findByUsernameAndPassword" resultType="login">
+        select * from login where username=#{username} and password=#{password}
+    </select>
+
+    <select id="findAll" resultType="person">
+        select * from person
+    </select>
+
+    <delete id="delete" parameterType="int">
+        delete from person where id=#{id}
+    </delete>
+
+    <insert id="addStudent" parameterType="person">
+        insert into person values(null,#{name},#{age})
+    </insert>
+
+    <select id="findById" parameterType="int" resultType="person">
+        select * from person where id=#{id}
+    </select>
+
+    <update id="update" parameterType="person" >
+        update person set name=#{name},age=#{age} where id=#{id}
+    </update>
+
+</mapper>

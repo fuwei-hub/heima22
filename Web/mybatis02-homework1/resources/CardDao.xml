@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.CardDao">
+<resultMap id="cardMap" type="card">
+    <result column="cid" property="id" ></result>
+    <result column="cnumber" property="number" ></result>
+    <association property="person" javaType="person">
+        <result column="pid" property="id"></result>
+        <result column="pname" property="name"></result>
+        <result column="page" property="age"></result>
+    </association>
+</resultMap>
+
+    <select id="findAll" resultMap="cardMap">
+        select
+            c.id 'cid',
+            c.number 'cnumber',
+            p.id 'pid',
+            p.name 'pname',
+            p.age 'page'
+        from card c
+        left join person p
+        on c.pid=p.id
+    </select>
+
+</mapper>

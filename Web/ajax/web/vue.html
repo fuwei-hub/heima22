@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/axios-0.18.0.js"></script>
+    <script src="js/qs.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <button @click="sendGet">点击发送异步请求</button>
+</div>
+
+<script>
+    new Vue({
+        el: "#app",
+        data: {},
+        methods: {
+            sendGet: function () {
+                axios.get('/DataServlet/getJeson', {  //params参数必写 , 如果没有参数传{}也可以
+                    params: {
+                        username: "阿伟",
+                        password: 123456,
+                        age: 18
+                    }
+                })
+                    //请求成功后执行的操作
+                    .then(res => {
+                        console.log(res.data);
+                    })
+                    //请求失败后执行的代码
+                    .catch(err => {
+                        console.log(err);
+                    })
+                    //不管
+                    .finally(() => {
+
+                    })
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

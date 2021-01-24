@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.ClassesDao">
+ <resultMap id="classesMap" type="classes">
+     <id property="id" column="id"></id>
+     <result property="name" column="name"></result>
+     <!--若在多表查询的同时想使用分页查询，那么就要用这种方式，将主表中的id传给附表的查询方法，然后赋值给主表中的stuents属性-->
+     <collection property="students" column="id" ofType="student"  select="cn.itcast.dao.StudentDao.findByCid"></collection>
+ </resultMap>
+<select id="findAll" resultMap="classesMap" >
+    select * from classes
+</select>
+</mapper>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jqpaginator.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<table class="table table-hover table-bordered table-striped" style="width: 300px">
+    <tr class="success">
+        <td>序号</td>
+        <td>县名</td>
+    </tr>
+    <tbody id="tb">
+
+    </tbody>
+</table>
+<!-- 分页按钮 -->
+<div class="footer">
+    <ul class="pagination" id="pagination0"></ul>
+</div>
+<script>
+    $(function () {
+        $.jqPaginator('#pagination0', {//这个选择器是容器的ID，必须和第一步的ID对应
+            totalCounts: 1, //总记录数是1,先写死
+            pageSize: 10,//每页显示10条记录
+            visiblePages: 10,//分页条显示10个页码
+            currentPage: 1,//默认是第一页
+            first: '<li class="first"><a href="javascript:;">首页</a></li>',
+            last: '<li class="first"><a href="javascript:;">尾页</a></li>',
+            prev: '<li class="prev"><a href="javascript:;">上页</a></li>',
+            next: '<li class="next"><a href="javascript:;">下页</a></li>',
+            page: '<li class="page"><a href="javascript:;">{{page}}</a></li>',
+            onPageChange: function (num, type) {//num表示被点击的那个页码
+                console.log(num);
+                $.ajax({
+                    url: "/CountryController/findAll",
+                    type: "get",
+                    data: {
+                        pageNum: num,
+                        pageSize: 10
+                    },
+                    success: function (data) {
+                        try {
+                            //将总记录数对接真实数据
+                            $('#pagination0').jqPaginator('option', {
+                                totalCounts: data.total
+                            });
+                        } catch (e) {
+                        }
+                        let str = "";
+                        $(data.list).each(function (index, element) {
+                            str += `<tr>
+                                            <td>${element.county_id}</td>
+                                            <td>${element.name}</td>
+                                     </tr>`
+                        })
+                        $("#tb").html(str)
+                    },
+                    error: function (e) {
+                        console.log(e)
+                    }
+                });
+            }
+        });
+    })
+</script>
+</body>
+</html>

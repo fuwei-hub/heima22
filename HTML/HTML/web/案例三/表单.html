@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <style>
+        body {
+            background: url("../../../CSS/img/bg.png") no-repeat;
+        }
+
+        .bg {
+            background-color: white;
+            width: 400px;
+            height: 415px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <a href="#" target="_self" title="关于黑马"><img src="../../../CSS/img/itheima.png" alt="图片找不到了哦" title="黑马"></a>
+</div>
+<div class="bg">
+    <div><h3>注册详情</h3></div>
+    <hr>
+    <form action="#" method="get" autocomplete="on">
+        <div>
+            姓名:<input type="text" name="username" required placeholder="请输入姓名"><br>
+            密码:<input type="password" name="userpassword" required placeholder="请输入密码"><br>
+            邮箱:<input type="email" name="email" required placeholder="请输入邮箱"><br>
+            手机:<input type="tel" name="number" required placeholder="请输入手机号"><br>
+            <hr>
+        </div>
+        <div style="width:350px">
+            性别:<input type="radio" name="gender" value="man">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="wowan">女
+            <br>
+        </div>
+        <div style="width: 425px">
+            爱好:<input type="checkbox" name="hobby" value="sing">唱歌
+            <input type="checkbox" name="hobby" value="dance">跳舞
+            <input type="checkbox" name="hobby" value="play">打篮球
+            <br>
+        </div>
+        <div style="width: 406px">
+            出生日期:<input type="date" name="birthday" value="birthday"><br>
+        </div>
+        <div style="width:48px">
+            所在城市: <select name="city" id="city">
+            <option>请选择您所在的城市</option>
+            <option>上海</option>
+            <option>北京</option>
+            <option>深圳</option>
+            <option>山西</option>
+        </select>
+        </div>
+        <div>
+            <hr>
+            个性签名:<textarea rows="5" cols="40" placeholder="写出你的与众不同!"></textarea>
+            <hr>
+        </div>
+        <div>
+            <button type="submit">提交</button>&nbsp;&nbsp;&nbsp;
+            <button type="reset">重置</button>&nbsp;&nbsp;
+        </div>
+    </form>
+</div>
+</body>
+</html>
